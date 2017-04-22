@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow; hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+header {
+  background: #000000;
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #808080 3px solid;
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .current a {
+  color: #808080;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #808080;
+  font-weight: bold;
+}
+
+/* band-photos */
+#band-photos {
+  min-height: 500px;
+  background-image: url(images/vondelbunker-01kopie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: #FFFFFF;
+  border-bottom: #808080 3px solid;
+}
+
+/* footer */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer .highlight {
+  color: #FFFFFF;
+}
+
+.copy {
+  color: #808080;
+  float: left;
+  margin-left: 10px;
+}
+
+.social-media-icons {
+  color: #808080;
+  float: right;
+  padding-top: 10px;
+}
+
+.social-media-icons ul {
+  display: flex;
+  position: relative;
+  left: 1px;
+}
+
+.social-media-icons ul li {
+  list-style: none;
+}
+
+.social-media-icons ul li a {
+  width: 40px;
+  height: 40px;
+  background: #808080;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+ul li a .fa {
+  position: relative;
+  color: #000000;
+  transition: .5s;
+}
+
+ul li a:hover .fa {
+  transform: rotateY(360deg);
+}
