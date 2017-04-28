@@ -62,9 +62,10 @@ header a:hover {
 }
 
 /* band-photos */
-#band-photos {
+
+#band-photo {
   min-height: 500px;
-  background-image: url(images/vondelbunker-01kopie.jpg);
+  background-image: url(images/fwwu-fecamp.jpeg); /*vondelbunker-01kopie*/
   background-position: center;
   background-repeat: no-repeat;
   text-align: right;
